@@ -1,0 +1,62 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	</head>
+	
+	<body>
+		<!-- Formulario para capturar datos -->
+		<!-- <form id="form1" name="form1" method="post" action="usuarios.xml"> -->
+		 <form id="form1" name="form1" method="post" action="insertar.php"> 
+			<p>
+				<!-- Etiqueta con entrada de nombre -->
+				<label for="nombre">Nombre: </label>
+				<input type="text" name="nombre" id="nombre" />
+				<!-- Etiqueta con entrada de edad 
+				<label for="edad">Edad: </label>
+				<input type="number" name="edad" id="edad" /> -->
+			</p>
+				<!-- Etiqueta con entrada de carrera -->
+				<label for="carrera">Carrera: </label>
+				<input type="text" name="carrera" id="carrera" />
+			<p>
+			</p>
+			<p>
+				<!-- Etiqueta con entrada de fecha de nacimiento -->
+				<label for="diaNacimiento">Fecha de nacimiento: Dia: </label>
+				<input type="text" name="diaNacimiento" id="diaNacimiento" size="06" maxlength="02" />
+				
+				<label for="mesNacimiento">Mes: </label>
+				<select name="mesNacimiento" id="mesNacimiento">
+					<option value="01-enero">Enero</option>
+					<option value="02-febrero">Febrero</option>
+					<option value="03-marzo">Marzo</option>
+					<option value="04-abril">Abril</option>
+					<option value="05-mayo">Mayo</option>
+					<option value="06-junio">Junio</option>
+					<option value="07-julio">Julio</option>
+					<option value="08-agosto">Agosto</option>
+					<option value="09-septiembre">Septiembre</option>
+					<option value="10-octubre">Octubre</option>
+					<option value="11-noviembre">Noviembre</option>
+					<option value="12-diciembre">Diciembre</option>
+				</select>
+				
+				<label for="anioNacimiento">Año: </label>
+				<input type="text" name="anioNacimiento" id="anioNacimiento" />
+				
+				<h3>Sexo</h3>
+				<input type="radio" name="rbtnSexo" id="masculino" value="masculino" />
+				<label for="masculino">Masculino</label>
+			</p>
+			<p>
+				<input type="radio" name="rbtnSexo" id="femenino" value="femenino" />
+				<label for="femenino">Femenino</label>
+			</p>
+			<p>
+				<input type="submit" name="btnEnviar" id="enviar" value="Enviar" />
+			</p>
+		</form>
+		
+	</body>
+</html>

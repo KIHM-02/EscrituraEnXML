@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<estudiantes>
+     <alumno>
+          <nombre sexo="masculino">Juan</nombre>
+          <carrera>Desarrollo de software</carrera>
+          <fNacimiento m="12" d="20" a="1990">Diciembre 20,1990</fNacimiento>
+     </alumno>
+     <alumno>
+          <nombre sexo="femenino">Maria</nombre>
+          <carrera>Desarrollo de software</carrera>
+          <fNacimiento m="12" d="10" a="1990">Agosto 13,1990</fNacimiento>
+     </alumno>
+<alumno><nombre sexo="masculino">David</nombre><carrera>Desarrollo de software</carrera><fNacimiento d="13" m="03" a="2005">marzo 13, 2005</fNacimiento></alumno></estudiantes>
