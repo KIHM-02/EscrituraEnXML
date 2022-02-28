@@ -1,13 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<estudiantes>
-     <alumno>
-          <nombre sexo="masculino">Juan</nombre>
-          <carrera>Desarrollo de software</carrera>
-          <fNacimiento m="12" d="20" a="1990">Diciembre 20,1990</fNacimiento>
-     </alumno>
-     <alumno>
-          <nombre sexo="femenino">Maria</nombre>
-          <carrera>Desarrollo de software</carrera>
-          <fNacimiento m="12" d="10" a="1990">Agosto 13,1990</fNacimiento>
-     </alumno>
-<alumno><nombre sexo="masculino">David</nombre><carrera>Desarrollo de software</carrera><fNacimiento d="13" m="03" a="2005">marzo 13, 2005</fNacimiento></alumno></estudiantes>
+<agenda>
+    <contacto>
+        <nombre>Kevin Isaac</nombre>
+        <apellido>Huerta Montero</apellido>
+        <empresa>Microsoft</empresa>
+        <telefonoFijo>12345678</telefonoFijo>
+        <telefonoMovil>3322192747</telefonoMovil>
+        <email>a18300722@ceti.mx</email>
+    </contacto>
+
+    <contacto>
+        <nombre>Carlos Elias</nombre>
+        <apellido>Huerta Montero</apellido>
+        <empresa>IBM</empresa>
+        <telefonoFijo>12345678</telefonoFijo>
+        <telefonoMovil>3312345650</telefonoMovil>
+        <email>a28300722@ceti.mx</email>
+    </contacto>
+
+    <contacto>
+        <nombre>Yael Imanol</nombre>
+        <apellido>Gonzalez Contreras</apellido>
+        <empresa>Microsoft</empresa>
+        <telefonoFijo>12345678</telefonoFijo>
+        <telefonoMovil>339425843</telefonoMovil>
+        <email>a18100440@ceti.mx</email>
+    </contacto>
+
+    <contacto>
+        <nombre>Daniel Aldair</nombre>
+        <apellido>Torres Torres</apellido>
+        <empresa>Google</empresa>
+        <telefonoFijo>12345678</telefonoFijo>
+        <telefonoMovil>3353751724</telefonoMovil>
+        <email>a18300726@ceti.mx</email>
+    </contacto>
+</agenda>
