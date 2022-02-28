@@ -1,62 +1,41 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html>
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	</head>
-	
-	<body>
-		<!-- Formulario para capturar datos -->
-		<!-- <form id="form1" name="form1" method="post" action="usuarios.xml"> -->
-		 <form id="form1" name="form1" method="post" action="insertar.php"> 
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Menu</title>
+</head>
+<body>
+
+	<div class = "titulo">
+		<header>
+			<h1>Menu</h1>
 			<p>
-				<!-- Etiqueta con entrada de nombre -->
-				<label for="nombre">Nombre: </label>
-				<input type="text" name="nombre" id="nombre" />
-				<!-- Etiqueta con entrada de edad 
-				<label for="edad">Edad: </label>
-				<input type="number" name="edad" id="edad" /> -->
+				<h4>Bienvenido</h4>
+				<h4>Seleccione que acci√≥n necesita realizar</h4>
 			</p>
-				<!-- Etiqueta con entrada de carrera -->
-				<label for="carrera">Carrera: </label>
-				<input type="text" name="carrera" id="carrera" />
-			<p>
-			</p>
-			<p>
-				<!-- Etiqueta con entrada de fecha de nacimiento -->
-				<label for="diaNacimiento">Fecha de nacimiento: Dia: </label>
-				<input type="text" name="diaNacimiento" id="diaNacimiento" size="06" maxlength="02" />
-				
-				<label for="mesNacimiento">Mes: </label>
-				<select name="mesNacimiento" id="mesNacimiento">
-					<option value="01-enero">Enero</option>
-					<option value="02-febrero">Febrero</option>
-					<option value="03-marzo">Marzo</option>
-					<option value="04-abril">Abril</option>
-					<option value="05-mayo">Mayo</option>
-					<option value="06-junio">Junio</option>
-					<option value="07-julio">Julio</option>
-					<option value="08-agosto">Agosto</option>
-					<option value="09-septiembre">Septiembre</option>
-					<option value="10-octubre">Octubre</option>
-					<option value="11-noviembre">Noviembre</option>
-					<option value="12-diciembre">Diciembre</option>
-				</select>
-				
-				<label for="anioNacimiento">AÒo: </label>
-				<input type="text" name="anioNacimiento" id="anioNacimiento" />
-				
-				<h3>Sexo</h3>
-				<input type="radio" name="rbtnSexo" id="masculino" value="masculino" />
-				<label for="masculino">Masculino</label>
-			</p>
-			<p>
-				<input type="radio" name="rbtnSexo" id="femenino" value="femenino" />
-				<label for="femenino">Femenino</label>
-			</p>
-			<p>
-				<input type="submit" name="btnEnviar" id="enviar" value="Enviar" />
-			</p>
-		</form>
-		
-	</body>
+		</header>
+	</div>
+
+
+	<div class = "menu_navegacion">
+		<ul>
+			<li>
+				<a href="agregarUsuarios.html">Agregar nuevos usuarios</a>
+			</li>
+
+			<li>
+				<a href="buscarUsuarios.html">Buscar usuarios</a>
+			</li>
+		</ul>
+	</div>
+
+	<div class = "pie_pagina">
+		<footer>
+			<p>Kevin Isaac Huerta Montero 18300722 Practica 1.2</p> 
+		</footer>
+	</div>
+
+
+</body>
 </html>
