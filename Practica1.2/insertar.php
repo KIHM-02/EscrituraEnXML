@@ -1,3 +1,4 @@
+
 <?php
 			//Validar que se reciban los datos posteados
 			if(isset ($_POST['btnEnviar'])){
@@ -8,14 +9,18 @@
 				$mesNac = $_POST['mesNacimiento'];
 				$anioNac = $_POST['anioNacimiento'];
 				$sexo = $_POST['rbtnSexo'];
+
 				//preparar la cadena en el formato deseado (Mes dia, año)
 				$separarCadena = explode('-',$mesNac);
 				$fechaNac = $separarCadena[1] . " " . $diaNac . ", " . $anioNac;
+
 				//Creamos el objeto Dom y lo vinculamos al archivo deseado.
 				$documentoXml = new DomDocument("1.0","utf-8");
+
 				//Nos damos permiso para poder escribir en el fichero
 				$documentoXml->formatOutput = true;
 				$documentoXml->LOAD('usuarios.xml');
+
 				//Asignamos la raiz
 				$raiz = $documentoXml->getElementsByTagName("estudiantes")->item(0);
 					//Creamos una instancia rama
@@ -43,6 +48,7 @@
 				$raiz->appendChild($rama);
 				
 				$documentoXml->appendChild($raiz);
+				
 				//Escribimos los datos en el archivo
 				$documentoXml-> save('usuarios.xml');
 				header("Location: index.html");

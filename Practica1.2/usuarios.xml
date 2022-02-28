@@ -35,4 +35,4 @@
         <telefonoMovil>3353751724</telefonoMovil>
         <email>a18300726@ceti.mx</email>
     </contacto>
-</agenda>
+<contacto><nombre>Juan Carlos</nombre><apellido>Huerta Varela</apellido><empresa>Quiropraxia</empresa><telefonoFijo>3312345678</telefonoFijo><telefonoMovil>3312345456</telefonoMovil><email>j.charles@gmail.com</email></contacto></agenda>
